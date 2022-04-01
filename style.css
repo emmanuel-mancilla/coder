@@ -43,24 +43,9 @@ p {
     font-style: italic; 
     font-size: 2rem;
 }
-.headernav {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    border: solid 1px;
-    padding: 10px;
-    margin: 30px;
-   background-color: black;
-}
-.headernav img {
-    height: auto;
-    width: 10%;
-    
-}
-
 
 .imagenMain {
+    
     height: 800px;
     width: 800px;
     border: 1px;
@@ -69,15 +54,8 @@ p {
     text-align: left;
     margin: 20px;
     }
-    .imagenMain img{
-        padding: 5px;
-        height: 100%;
-        width: 100%;
-        transition: all 0.2s linear;
-    }
-    .imagenMain img:hover {
-        transform: scale(1.05,1.05);
-    }
+   
+  
     
 .guitarras {
 height: 250px; 
@@ -99,16 +77,14 @@ transform: scale(1.2,1.2);
 }
 
 
-.guitarras img {
-    width: 75%;
-    padding: 10px;
-}
+
 
 .footer
 {
 font-size: 1.5rem;
 background-color: black;
 color: whitesmoke;
+margin-top: 150px;
 }
 .ubi {
     margin: 100px;
@@ -119,11 +95,9 @@ color: whitesmoke;
      transform: scale(1.2,1.2);
  }
 
- .container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+ .container2 {
+     display: flex;
+ }
 .aboutus {
     font-size: 1rem;
     text-align: center;
@@ -180,12 +154,7 @@ transform: scale(1.2, 1.2)
 }
 
 
-footer:hover{
 
-transform: scale(1,1.2);
-
-
-}
 
 @keyframes movimiento{
     0% { 
@@ -210,34 +179,4 @@ transform: scale(1,1.2);
 
 
 @media screen and (max-width:768px)
-{
-    body {
-        font-size: 5px;
-    }
-    ul {
-        justify-content: space-evenly;
-    }
-    li {
-        display: flex;
-        
-        font-size: 10px ;
-    }
-    .headernav {
-        display: inline;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-        background-color: transparent;
-       
-      
-    }
-    .headernav img {
-        height: auto;
-        width: 200px;
-        padding-left: 100px;
-        background-color: transparent;
-        
-        
-    }
 
-}
