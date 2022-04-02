@@ -1,0 +1,23 @@
+{
+  "name": "coder",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Emmanuel Mancilla Muñoz</h1>\r <h3 align=\"center\">Front-end Developer Jr.</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuel-mancilla/coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmanuel-mancilla/coder/issues"
+  },
+  "homepage": "https://github.com/emmanuel-mancilla/coder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

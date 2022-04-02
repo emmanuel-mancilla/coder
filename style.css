@@ -17,7 +17,9 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
+nav img {
+    border-radius: 50%;
+}
 ul {
     list-style: none;
     justify-content: space-evenly;
@@ -43,19 +45,27 @@ p {
     font-style: italic; 
     font-size: 2rem;
 }
-
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
 .imagenMain {
     
-    height: 800px;
+    height: 80%;
     width: 800px;
-    border: 1px;
-    border-radius: 5px;
-    background-color: 	transparent;
-    text-align: left;
-    margin: 20px;
-    }
    
-  
+
+    }
+.imagenMain img {
+    width:  800px;
+    height: 800px;
+}
+.imagenMain iframe {
+    width: 800px;
+    height: 800px;
+
+}
     
 .guitarras {
 height: 250px; 
@@ -95,18 +105,17 @@ margin-top: 150px;
      transform: scale(1.2,1.2);
  }
 
- .container2 {
-     display: flex;
- }
+ 
 .aboutus {
     font-size: 1rem;
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 50px;
-    background-color: 	#FFF0C9;
-    width: 95%;
+    margin: 10%;
+    background-color: 	black;
+    width: 80%;
     transition: all 0.1s linear;
+    color: whitesmoke;
 }
 .aboutus:hover {
     transform: scale(1,1.2);
@@ -117,7 +126,8 @@ margin-top: 150px;
         border: 1px solid black;
         border-radius: 5px;
         padding: 10px;
-        background-color: 	#FFF0C9;
+        background-color: 	black;
+        color: whitesmoke;
         width: 300px;
         height: 300px;
         transition: all 0.2s linear;
@@ -174,3 +184,67 @@ transform: scale(1.2, 1.2)
     }
 
 }
+
+@media screen and (max-width:768px)
+{
+    .aboutus{
+        width: 80%;
+        font-size: 0.5rem;
+    }
+    .container2 
+    {
+        display: inline;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .imagenMain {
+    
+        height: 80%;
+        width: 80%;
+        
+        border-radius: 5px;
+        background-color: 	transparent;
+        text-align: left;
+        padding: 10%;
+        }
+    .imagenMain img {
+        width: 17rem;
+        height: 17rem;
+    }
+    .imagenMain iframe {
+        
+        width: 17rem;
+        height: 17rem;
+        
+    }
+    .ubi {
+        margin: 25px;
+        text-align: center;
+        transition: all 0.3s linear;
+     }
+    
+    .ubi iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .contactoo {
+        display: inline;
+        justify-content: center;
+        
+        padding: 10%;
+        
+    }
+    .redes {
+
+        background-color: 	#FFF0C9;
+        width: 80%;
+        height: 150px;
+        transition: all 0.2s linear;
+       text-align: center;
+       padding: 5px;
+       margin: 10%;
+        }
+      
+        
+    }
