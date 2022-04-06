@@ -1,250 +1,221 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    background-color: #131D27;
-    background-size: cover;
-    animation-name: movimiento;
-    animation-duration: 6s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #131D27;
+  background-size: cover;
+  animation-name: movimiento;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
+
 nav img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
+
 ul {
-    list-style: none;
-    justify-content: space-evenly;
+  list-style: none;
+  justify-content: space-evenly;
 }
-li {
-    display: inline;
-    padding: 50px;
-    font-size: 30px ;
+
+ul li {
+  display: inline;
+  padding: 50px;
+  font-size: 30px;
 }
+
 a {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: WHITESMOKE;
 }
 
 h1 {
-    font-size: 3rem;
-    text-align: center;
-    padding-top: 100px;
-    color: whitesmoke;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 100px;
+  color: WHITESMOKE;
 }
+
 p {
-    font-weight: bold;
-    font-style: italic; 
-    font-size: 2rem;
-}
-.container2 {
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-}
-.imagenMain {
-    
-    height: 80%;
-    width: 800px;
-   
-
-    }
-.imagenMain img {
-    width:  800px;
-    height: 800px;
-}
-.imagenMain iframe {
-    width: 800px;
-    height: 800px;
-
-}
-    
-.guitarras {
-height: 250px; 
-width: 200px;
-overflow: hidden;
-text-align: center;
-font-size: 1rem;
-border: 1px solid black;
-border-radius: 5px ;
-color: whitesmoke;
-background-color: black;
-margin: 100px;
-transition: all 0.2s linear;
-}
-.guitarras:hover {
-box-shadow: 1px 1px 3px 1px grey;
-transform: scale(1.2,1.2);
-
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
 }
 
-
-
-
-.footer
-{
-font-size: 1.5rem;
-background-color: black;
-color: whitesmoke;
-margin-top: 150px;
+footer {
+  color: WHITESMOKE;
+  background-color: black;
+  margin-top: 150px;
+  font-size: 1.5rem;
 }
-.ubi {
-    margin: 100px;
-    text-align: center;
-    transition: all 0.3s linear;
- }
- .ubi:hover {
-     transform: scale(1.2,1.2);
- }
 
- 
 .aboutus {
-    font-size: 1rem;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 10%;
-    background-color: 	black;
-    width: 80%;
-    transition: all 0.1s linear;
-    color: whitesmoke;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10%;
+  background-color: black;
+  width: 80%;
+  transition: all 0.1s linear;
+  color: WHITESMOKE;
 }
-.aboutus:hover {
-    transform: scale(1,1.2);
-}
-    .redes {
-        
-        font-size: 1rem;
-        border: 1px solid black;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: 	black;
-        color: whitesmoke;
-        width: 300px;
-        height: 300px;
-        transition: all 0.2s linear;
-       
-}
-.redes:hover{
-transform: scale(1.2, 1.2)
 
+.aboutus:hover {
+  transform: scale(1, 1.2);
 }
-.contactocontainer {
-   
-    display:inline;
-    text-align: center;
-    flex-wrap: wrap;
-}   
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.container2_imagen {
+  height: 80%;
+  width: 800px;
+}
+.container2_imagen img {
+  width: 800px;
+  height: 800px;
+}
+.container2_imagen iframe {
+  width: 800px;
+  height: 800px;
+}
 
 .contacto {
-    
-    padding: 10px;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10%;
 }
-.contactoo {
-    display: flex;
+.contacto_input {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+  width: 20rem;
+}
+.contacto_redes {
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  color: WHITESMOKE;
+  width: 300px;
+  height: 300px;
+  transition: all 0.2s linear;
+}
+.contacto_redes:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.ubi {
+  margin: 100px;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+
+.ubi:hover {
+  transform: scale(1.2, 1.2);
+}
+
+@keyframes movimiento {
+  0% {
+    background-color: #131D27;
+  }
+  25% {
+    background-color: black;
+  }
+  50% {
+    background-color: #131D27;
+  }
+  75% {
+    background-color: black;
+  }
+  100% {
+    background-color: #131D27;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    width: 60%;
+    margin-left: 3%;
+  }
+
+  .aboutus {
+    width: 60%;
+    font-size: 0.5rem;
+  }
+
+  .container2 {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+  }
+  .container2_h {
+    margin-left: 3%;
+    width: 60%;
+  }
+  .container2_imagen {
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: left;
+    padding: 10%;
+  }
+  .container2_imagen img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .container2_imagen iframe {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .ubi {
+    margin: 25px;
+    text-align: center;
+    transition: all 0.3s linear;
+  }
+  .ubi_h {
+    margin-left: 20%;
+  }
+
+  .ubi iframe {
+    width: 300px;
+    height: 300px;
+  }
+
+  .contacto {
+    display: inline;
     justify-content: center;
     padding: 10%;
-    
-}
-.grid-container
-{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-auto-rows: 300px;
-
-}
-
-
-
-
-@keyframes movimiento{
-    0% { 
-        background-color: #131D27 ;
-    }  
-    25% {
-        background-color: black;
-    } 
-    50% {
-        background-color: #131D27;
-    }
-    75% {
-            background-color: black;
-    }
-    100% {
-        background-color:  #131D27;
-    }
-
+  }
+  .contacto_redes {
+    background-color: black;
+    width: 80%;
+    height: 150px;
+    transition: all 0.2s linear;
+    text-align: center;
+    padding: 5px;
+    margin: 10%;
+  }
+  .contacto_h {
+    margin-left: 15%;
+    width: 80%;
+  }
+  .contacto_input {
+    padding: 10px;
+    margin-left: 15%;
+    width: 20rem;
+  }
 }
 
-@media screen and (max-width:768px)
-{
-    .aboutus{
-        width: 80%;
-        font-size: 0.5rem;
-    }
-    .container2 
-    {
-        display: inline;
-        text-align: center;
-        justify-content: center;
-        
-    }
-    .imagenMain {
-    
-        height: 80%;
-        width: 80%;
-        
-        border-radius: 5px;
-        background-color: 	transparent;
-        text-align: left;
-        padding: 10%;
-        }
-    .imagenMain img {
-        width: 17rem;
-        height: 17rem;
-    }
-    .imagenMain iframe {
-        
-        width: 17rem;
-        height: 17rem;
-        
-    }
-    .ubi {
-        margin: 25px;
-        text-align: center;
-        transition: all 0.3s linear;
-     }
-    
-    .ubi iframe {
-        width: 300px;
-        height: 300px;
-    }
-    .contactoo {
-        display: inline;
-        justify-content: center;
-        
-        padding: 10%;
-        
-    }
-    .redes {
-
-        background-color: 	#FFF0C9;
-        width: 80%;
-        height: 150px;
-        transition: all 0.2s linear;
-       text-align: center;
-       padding: 5px;
-       margin: 10%;
-        }
-      
-        
-    }
+/*# sourceMappingURL=style.css.map */
