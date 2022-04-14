@@ -1,0 +1,24 @@
+$font-color: WHITESMOKE;
+$primary-color:#131D27 ;
+$secondary-color: black;
+$font-family:'Roboto', sans-serif;
+$colores:  (  
+ 
+    color: $font-color, 
+    bg-color: $secondary-color,
+    
+);
+%flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+};
+
+@mixin inline ($horizontal, $vertical){
+display:inline;
+justify-content: $horizontal;
+align-items: $vertical;
+
+}
+//lo llamo con @include inline(horizontal,vertical,ancho)//

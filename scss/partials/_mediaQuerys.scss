@@ -1,0 +1,83 @@
+@import "./variables";
+
+
+@media screen and (max-width:768px)
+{
+    h1{
+        width: 60%;
+        margin-left: 3%;
+    }
+    .aboutus{
+        width: 25rem;
+        font-size: 0.5rem;
+    }
+    .container2 
+    {
+        @include inline(center,center);
+        width: 80%;
+        &_h {
+            margin-left: 17%;
+            width: 25rem;
+        }
+        &_imagen {
+         height: 80%;
+        width: 80%;
+        border-radius: 5px;
+        background-color: 	transparent;
+        text-align: left;
+        padding: 10%;
+        }
+        &_imagen img {
+                width: 25rem;
+                height: 25rem;
+            }
+        &_imagen iframe {
+            width: 25rem;
+            height: 25rem;
+        }
+        
+    }
+     
+    
+   
+    .ubi {
+        margin: 25px;
+        text-align: center;
+        transition: all 0.3s linear;
+        &_h {
+            margin-left: 20%;
+        }
+     }
+    
+    .ubi iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .contacto {
+        @include inline(center,center);
+        padding: 10%;
+        &_redes {
+        background-color: 	$secondary-color;
+        width: 80%;
+        height: 150px;
+        transition: all 0.2s linear;
+       text-align: center;
+       padding: 5px;
+       margin: 10%;
+        
+            }
+        &_h {
+            margin-left: 15%;
+            width: 80%;
+            }
+        &_input {
+            padding: 10px;
+            margin-left: 15%;
+            width: 20rem;
+        }
+         &_redes {
+                font-size: 1rem;
+            }
+        
+    }
+}

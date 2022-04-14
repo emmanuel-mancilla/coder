@@ -1,0 +1,42 @@
+@import "./variables";
+
+body {
+    font-family: $font-family; 
+    font-size: 12px;
+    background-color: $primary-color;
+    background-size: cover;
+    animation-name: movimiento;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 100px;
+    color: $font-color;
+}
+p {
+    font-weight: bold;
+    font-style: italic; 
+    font-size: 2rem;
+}
+@keyframes movimiento{
+    0% { 
+        background-color: $primary-color;
+    }  
+    25% {
+        background-color: $secondary-color;
+    } 
+    50% {
+        background-color: $primary-color;
+    }
+    75% {
+            background-color: $secondary-color;
+    }
+    100% {
+        background-color:  $primary-color;
+    }
+}

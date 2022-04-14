@@ -1,0 +1,18 @@
+$font-color: WHITESMOKE;
+nav img {
+    border-radius: 50%;
+}
+ul {
+    list-style: none;
+    justify-content: space-evenly;
+    li{
+        display: inline;
+        padding: 50px;
+        font-size: 30px ;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $font-color;
+}
