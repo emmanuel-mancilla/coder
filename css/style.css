@@ -225,6 +225,38 @@ p {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container2 {
+    display: inline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container2_h {
+    margin-left: 17%;
+    width: 35rem;
+  }
+  .container2_imagen {
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: left;
+    padding: 10%;
+  }
+  .container2_imagen img {
+    width: 40rem;
+    height: 40rem;
+  }
+  .container2_imagen iframe {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     width: 60%;
