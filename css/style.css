@@ -143,11 +143,6 @@ p {
   color: WHITESMOKE;
 }
 
-.aboutus:hover {
-  -webkit-transform: scale(1, 1.2);
-          transform: scale(1, 1.2);
-}
-
 .container2 {
   gap: 5%;
 }
@@ -193,11 +188,6 @@ p {
   height: 300px;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-}
-
-.contacto_redes:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
 }
 
 .ubi {
