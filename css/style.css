@@ -212,6 +212,18 @@ p {
           transform: scale(1.2, 1.2);
 }
 
+.cardsize {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.rowsize {
+  margin-left: 10%;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
 .container2, .contacto {
   display: -webkit-box;
   display: -ms-flexbox;
