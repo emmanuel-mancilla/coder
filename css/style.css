@@ -228,11 +228,8 @@ p {
 }
 
 @media (min-width: 1024px) and (max-width: 1600px) {
-  header {
-    width: 40rem;
-  }
   .aboutus {
-    width: 35rem;
+    width: 50%;
     font-size: 0.5rem;
   }
   .container2 {
@@ -240,7 +237,7 @@ p {
   }
   .container2_h {
     margin-left: 10;
-    width: 60rem;
+    width: 100%;
   }
   .container2_imagen {
     height: 80%;
@@ -261,9 +258,6 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  header {
-    width: 30rem;
-  }
   .aboutus {
     width: 30rem;
     font-size: 0.5rem;
@@ -295,9 +289,6 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    width: 30rem;
-  }
   .aboutus {
     width: 35rem;
     font-size: 0.5rem;

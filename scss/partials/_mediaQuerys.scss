@@ -1,10 +1,7 @@
 @import "./variables";
 @media (min-width: 1024px) and (max-width: 1600px) {
 
-    header
-    {
-        width: 40rem;
-    }
+    
     .aboutus{
         width: 35rem;
         font-size: 0.5rem;
@@ -41,10 +38,7 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     
-    header
-    {
-        width: 30rem;
-    }
+    
     .aboutus{
         width: 30rem;
         font-size: 0.5rem;
@@ -81,10 +75,7 @@
 }
 
 @media screen and (max-width:768px)
-{   header
-    {
-        width: 30rem;
-    }
+{   
     .aboutus{
         width: 35rem;
         font-size: 0.5rem;
